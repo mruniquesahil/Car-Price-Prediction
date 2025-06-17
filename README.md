@@ -35,14 +35,12 @@ This project predicts the price of a car based on various features using Machine
    streamlit run app.py
 
 
-Project Structure ---
+## 📁 Project Directory Overview
 
-car-price-prediction/
-│
-├── app.py                  # Streamlit web app
-├── model.pkl               # Trained ML model (saved using joblib)
-├── data/
-│   └── car_data.csv        # Car dataset
-├── images/                 # Optional: Visualizations or screenshots
-├── requirements.txt        # List of required Python packages
-└── README.md               # Project documentation
+- `app.py`: The main file that runs the Streamlit web application.
+- `model.pkl`: The trained machine learning model serialized using Joblib.
+- `data/car_data.csv`: The dataset used for training the model.
+- `images/`: A folder for storing visualizations or screenshots (optional).
+- `requirements.txt`: Contains all Python dependencies required to run the project.
+- `README.md`: This documentation file explaining the project and setup.
+
